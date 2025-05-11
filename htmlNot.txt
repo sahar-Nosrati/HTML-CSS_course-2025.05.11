@@ -1,0 +1,163 @@
+- hyprtlink in html -> 
+  - <a href="link">Explanation</a> -> simp,le hyperlink 
+  - <a href="html_images.asp" target="_blank">HTML Images</a> -> HTML attribute to make the link open in a new window
+  - <a href="html_images.asp" ><img src="smiley.gif"></a>-> make the image become a link to "default.html"
+  - <a href="html_images.asp" title="Home">HTML Images</a>-> Add a "tooltip" to the link. The "tooltip" should say "Home".
+
+
+- HTML -> 
+  - HTML stands for Hyper Text Markup Language
+  - HTML is the standard markup language for creating Web pages
+  - HTML describes the structure of a Web page
+  - HTML consists of a series of elements
+  - HTML elements tell the browser how to display the content
+  - HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.
+
+explanation of simple HTML document -> 
+  - The <!DOCTYPE html> declaration defines that this document is an HTML5 document
+  - The <html> element is the root element of an HTML page
+  - The <head> element contains meta information about the HTML page
+  - The <title> element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)
+  - The <body> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
+
+
+- HTML element -> An HTML element is defined by a start tag, some content, and an end tag
+- point -> Some HTML elements have no content (like the <br> element). These elements are called empty elements. Empty elements do not have an end tag!
+
+- note -> Some HTML elements have no content (like the <br> element). These elements are called empty elements. Empty elements do not have an end tag! 
+
+- <!DOCTYPE html> declaration -> present the type of the page and helps browser to display web page correctly. It appers once at top of the script 
+
+- Attributes are used to provide additional information about HTML elements.
+- <img src="" alt="">
+- HTML tags are not case sensitive: <P> means the same as <p>.
+- HTML attributes provide additional information about HTML elements.
+- The <img> tag is used to embed an image in an HTML page. The src attribute specifies the path to the image to be displayed
+
+- specify the URL in the src attribute:
+  -  Absolute URL - Links to an external image that is hosted on another website
+  -  Relative URL - Links to an image that is hosted within the website. Here, the URL does not include the domain name.
+
+- Attributes -> 
+  - All HTML elements can have attributes
+  - Attributes provide additional information about elements
+  - Attributes are always specified in the start tag
+  - Attributes usually come in name/value pairs like: name="value"
+
+- href attribute -> The <a> tag defines a hyperlink. The href attribute provides us specified the URL that our page  goes to this link 
+- src attribute -> The <img> tag is used to embed an image in an HTML page. The src attribute specifies the path to the image to be displayed
+- The <img> tag should also contain the width and height attributes, which specify the width and height of the image (in pixels)
+- The required alt attribute for the <img> tag specifies an alternate text for an image, if the image for some reason cannot be displayed
+
+- lang attribute inside the <html> tag ->  to declare the language of the Web
+- points -> Country codes can also be added to the language code in the lang attribute. So, the first two characters define the language of the HTML page, and the last two characters define the country.
+
+- title attribute -> some extra information about an element
+
+- best practice for attribute ->
+  - to lowecase
+  - inside single or duble qutes (double qutes is better)
+
+- HTML headings are defined with the <h1> to <h6> tags.
+- Search engines use the headings to index the structure and content of your web pages.
+
+- A paragraph always starts on a new line, and is usually a block of text.
+- <hr> element is used to separate content (or define a change) in an HTML page  (hr -> horizontal rules)
+- <br> element defines a line break
+- <pre> -> fixed-width font (usually Courier), and it preserves both spaces and line breaks
+
+- style attribute -> add styles to an element, such as color, font, size, and more -> syntax -> 
+  - <tagname style="property:value;">
+
+- Formatting elements were designed to display special types of text -> 
+  - <b> - Bold text -> defines bold text, without any extra importance
+  - <strong> - Important text -> efines text with strong importance. The content inside is typically displayed in bold
+  - <i> - Italic text -> defines a part of text in an alternate voice or mood. The content inside is typically displayed in italic
+  - <em> - Emphasized text -> defines emphasized text. The content inside is typically displayed in italic.
+  - <mark> - Marked text -> defines text that should be marked or highlighted
+  - <small> - Smaller text -> defines smaller text
+  - <del> - Deleted text -> defines text that has been deleted from a document. Browsers will usually strike a line through deleted text
+  - <ins> - Inserted text -> defines a text that has been inserted into a document. Browsers will usually underline inserted text 
+  - <sub> - Subscript text -> defines subscript text
+  - <sup> - Superscript text -> defines superscript text 
+  - <blockquote> -> defines a section that is quoted from another source
+  - <q> -> </q>defines a short quotation
+  - <abbr title=""> -> defines an abbreviation or an acronym, like "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM" -> POINT -> 
+    - use title attribute provides information of abbraviation/avronomy when you mouse hover on it
+  - <address> -> defines the contact information for the author/owner of a document or an article
+  - <cite> -> defines the title of a creative work (e.g. a book, a poem, a song, a movie, a painting, a sculpture, etc.)
+  - <bdo dir="rtl"> (Bidirectional Override) -> is used to override text directionality
+
+- HTML comments are not displayed in the browser, but they can help document your HTML source code
+- comment in HTML -> <!-- your comment-->
+
+- colors in HTML -> RGB, HEX, HSL, RGBA, or HSLA values
+  - RGB color format -> combination of Red,Green,Blue  -> rgb(red, green, blue) -> intensity of the color -> value between 0 and 255.
+  - HEX format -> #9947bb -> #RRGGBB, where the RR (red), GG (green) and BB (blue)
+  - HSL ->
+  - RGBA FORMAT -> add an Alpha channel to the color 
+  - HSLA -> add an Alpha channel to the color 
+
+- The alpha channel specifies to opacity of a ( <color> ) 
+
+- RGB -> rgb(255,0,0) 
+- RGB -> rgb(0,255,0) 
+- RGB -> rgb(0,0,255) 
+- RGB -> rgb(255,255,0) 
+- RGB -> rgb(255,255,255) 
+- RGB -> rgb(36, 36, 224) 
+  
+- RgbA color -> are an extension of RGB color values with an Alpha channel - which specifies the opacity for a color
+- rgba(red, green, blue, alpha) ->
+  - alpha -> 
+    - 0 maximum transparency 
+    - 1 minimum transparency 
+
+- Hex -> rr (red), gg (green) and bb (blue) are hexadecimal values between 00 and ff (same as decimal 0-255) ->
+  -  #9947bb 
+  -  #cc90bb 
+  -  #47bb60 
+  -  #99eebb 
+  -  #ee4760 
+  -  #ff0000 
+  -  #00ff60 
+  -  #0000ff 
+  -  #ee47ff 
+
+- HSL -> HSL stands for hue, saturation, and lightness.
+- HSLA color values are an extension of HSL with an Alpha channel (opacity).
+
+- hsl(hue, saturation, lightness) -> 
+  - Hue is a degree on the color wheel from 0 to 360. 0 is red, 120 is green, and 240 is blue.
+  - Saturation is a percentage value. 0% means a shade of gray, and 100% is the full color. -> 
+    - described as the intensity of a color.
+  - Lightness is also a percentage value. 0% is black, and 100% is white.
+    - described as how much light you want to give the color 
+
+- hsl -> 
+  -  hsl(120, 50%, 75%) 
+  -  hsl(0, 100%, 30%) 
+  -  hsl(0, 50%, 90%) 
+  -  hsl(240, 60%, 75%) 
+  -  hsl(120, 30%, 60%) 
+  -  hsl(240, 50%, 40%) 
+  -  hsla(180, 40%, 60%, 0.5) 
+
+- Shades of gray  -> 
+  - hue -> 0 
+  - saturation -> 0% 
+  - lightness -> 0-100% -> darker-lighter 
+
+- hsla -> HSLA color values are an extension of HSL color values, with an Alpha channel - which specifies the opacity for a color
+  - hsla(hue, saturation, lightness, alpha)
+  -  hsla(0, 0.00%, 50.20%, 0.38) 
+
+
+- CSS -> stands for cascading style sheet -> to format the layout of a webpage 
+- Tip: The word cascading means that a style applied to a parent element will also apply to all children elements within the parent.
+
+- addition CSS to HTML -> 
+  - Inline - by using the style attribute inside HTML elements -> 
+    - is used to apply a unique style to a single HTML element
+  - Internal - by using a <style> element in the <head> section
+  - External - by using a <link> element to link to an external CSS file
